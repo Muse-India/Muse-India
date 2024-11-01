@@ -12,7 +12,7 @@ export default function Loading() {
     }, 1000);
 
     return () => clearTimeout(routeToHome);
-  }, []);
+  }, [router]);
 
   return (
     <>

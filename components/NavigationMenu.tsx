@@ -2,6 +2,7 @@ import { ChevronDown, Languages } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const NavigationMenu = () => {
   return (
@@ -22,7 +23,9 @@ const NavigationMenu = () => {
           <p>English</p>
           <ChevronDown />
         </div>
-        <Button className="ml-8 shadow-glow">Login/Register</Button>
+        <Link href="/auth">
+          <Button className="ml-8 shadow-glow">Login/Register</Button>
+        </Link>
       </div>
     </div>
   );

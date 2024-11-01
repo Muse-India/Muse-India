@@ -10,8 +10,7 @@ const Home = () => {
           src="/images/lal_bagh_palace.webp"
           alt="Lal Bagh Palace"
           fill
-          objectFit="cover"
-          className="absolute right-0 top-0 -z-10 object-bottom"
+          className="absolute right-0 top-0 -z-10 object-cover object-bottom"
         />
         <div className="absolute right-0 top-0 -z-10 h-full w-full bg-black/50" />
         <NavigationMenu />
@@ -27,7 +26,7 @@ const Home = () => {
           <div className="flex h-[6vh] w-1/3 flex-row items-center justify-between rounded-xl border border-white/20 bg-white/30 px-[1vw] text-white backdrop-blur-xl">
             <Search className="mr-4 h-8 w-8" />
             <p className="w-full text-xl font-light text-secondary opacity-80">
-              Eg: "Indian Museum", "Museums in Pune" etc.
+              Eg: &#34;Indian Museum&#34;, &#34;Museums in Pune&#34; etc.
             </p>
             <Mic className="ml-4 h-8 w-8" />
           </div>
